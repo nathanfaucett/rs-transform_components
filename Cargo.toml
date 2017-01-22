@@ -1,0 +1,21 @@
+[package]
+name = "transform_components"
+version = "0.1.0"
+authors = ["nathanfaucett <nathanfaucett@gmail.com>"]
+
+keywords = ["ecs", "transforms", "transform_components", "transform2d", "transform3d", "2d", "3d", "components"]
+description = "ecs transform 2d and 3d components and process"
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/nathanfaucett/rs-transform_components.git"
+homepage = "https://github.com/nathanfaucett/rs-transform_components"
+
+[dependencies]
+ecs = {git = "https://github.com/nathanfaucett/rs-ecs.git"}
+atomic = {git = "https://github.com/nathanfaucett/rs-atomic.git"}
+vec2 = {git = "https://github.com/nathanfaucett/rs-vec2.git"}
+vec3 = {git = "https://github.com/nathanfaucett/rs-vec3.git"}
+quat = {git = "https://github.com/nathanfaucett/rs-quat.git"}
+mat32 = {git = "https://github.com/nathanfaucett/rs-mat32.git"}
+mat3 = {git = "https://github.com/nathanfaucett/rs-mat3.git"}
+mat4 = {git = "https://github.com/nathanfaucett/rs-mat4.git"}
